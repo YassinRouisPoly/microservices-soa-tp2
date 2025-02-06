@@ -1,0 +1,9 @@
+@id = 1
+PUT /personnes/{{id}}
+Host: http://localhost:3000
+Accept: application/json
+Content-Type: application/json
+
+{
+	"adresse": "Test"
+}

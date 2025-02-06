@@ -1,0 +1,4 @@
+@id = 1
+DELETE /personnes/{{id}}
+Host: http://localhost:3000
+Accept: application/json
